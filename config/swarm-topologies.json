@@ -1,0 +1,46 @@
+{
+  "swarm_topologies": {
+    "mesh": {
+      "description": "Peer-to-peer network where all agents communicate directly",
+      "best_for": ["collaborative_coding", "distributed_problem_solving", "fault_tolerant_operations"],
+      "max_agents": 25,
+      "communication_overhead": "O(n²)",
+      "fault_tolerance": "high",
+      "performance_boost": 1.8
+    },
+    "hierarchical": {
+      "description": "Tree structure with queen coordination",
+      "best_for": ["complex_projects", "enterprise_workflows", "coordinated_execution"],
+      "max_agents": 100,
+      "communication_overhead": "O(log n)",
+      "fault_tolerance": "medium",
+      "performance_boost": 2.2
+    },
+    "ring": {
+      "description": "Circular communication pattern",
+      "best_for": ["sequential_processing", "pipeline_workflows", "ordered_execution"],
+      "max_agents": 50,
+      "communication_overhead": "O(n)",
+      "fault_tolerance": "low",
+      "performance_boost": 1.5
+    },
+    "star": {
+      "description": "Centralized hub with spokes",
+      "best_for": ["simple_coordination", "rapid_deployment", "resource_management"],
+      "max_agents": 30,
+      "communication_overhead": "O(n)",
+      "fault_tolerance": "low",
+      "performance_boost": 1.3
+    },
+    "adaptive": {
+      "description": "Dynamic topology switching based on task requirements",
+      "best_for": ["complex_ai_projects", "multi_phase_development", "optimization_problems"],
+      "max_agents": 66,
+      "communication_overhead": "O(n log n)",
+      "fault_tolerance": "adaptive",
+      "performance_boost": 3.2,
+      "quantum_enabled": true,
+      "byzantine_consensus": true
+    }
+  }
+}
