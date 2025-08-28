@@ -1,0 +1,74 @@
+{
+  "cognitive_patterns": {
+    "convergent": {
+      "description": "Single solution focus",
+      "best_for": ["debugging", "optimization", "specific_problem_solving"],
+      "agent_count": "3-7",
+      "performance_boost": 1.2
+    },
+    "divergent": {
+      "description": "Multiple solution exploration",
+      "best_for": ["brainstorming", "creative_design", "feature_generation"],
+      "agent_count": "5-12",
+      "performance_boost": 1.5
+    },
+    "lateral": {
+      "description": "Creative problem solving",
+      "best_for": ["innovation", "breakthrough_thinking", "paradigm_shifts"],
+      "agent_count": "4-8",
+      "performance_boost": 1.8
+    },
+    "systems": {
+      "description": "Holistic approach",
+      "best_for": ["architecture", "infrastructure", "complex_integration"],
+      "agent_count": "8-20",
+      "performance_boost": 2.1
+    },
+    "critical": {
+      "description": "Analytical evaluation",
+      "best_for": ["code_review", "security_audit", "quality_assurance"],
+      "agent_count": "5-10",
+      "performance_boost": 1.3
+    },
+    "abstract": {
+      "description": "Pattern recognition",
+      "best_for": ["ml_training", "data_analysis", "trend_identification"],
+      "agent_count": "10-25",
+      "performance_boost": 2.3
+    },
+    "meta_cognitive": {
+      "description": "Thinking about thinking",
+      "best_for": ["process_optimization", "methodology_improvement", "agent_coordination"],
+      "agent_count": "15-30",
+      "performance_boost": 2.5
+    },
+    "byzantine_consensus": {
+      "description": "Fault-tolerant distributed decision making",
+      "best_for": ["critical_decisions", "high_stakes_deployment", "enterprise_coordination"],
+      "agent_count": "22-66",
+      "performance_boost": 3.2,
+      "fault_tolerance": "33%",
+      "consensus_time_ms": 500
+    }
+  },
+  "quantum_features": {
+    "sqlite_performance": {
+      "operations_per_second": 396610,
+      "concurrent_connections": 1000,
+      "memory_tables": 12,
+      "acid_compliance": true
+    },
+    "neural_acceleration": {
+      "wasm_simd_enabled": true,
+      "pattern_recognition_ms": 10,
+      "decision_tracking": true,
+      "adaptive_learning": true
+    },
+    "memory_coordination": {
+      "cross_agent_sync_ms": 50,
+      "persistent_storage": true,
+      "namespacing": true,
+      "ttl_support": true
+    }
+  }
+}

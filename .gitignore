@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# DevPod and development environments
+.devpod/
+*.log
+.DS_Store
+Thumbs.db
+
+# Runtime and cache
+.cache/
+.tmp/
+temp/
+*.tmp
+*.temp
+
+# IDE and editor files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Quantum processing cache
+quantum-cache/
+neural-patterns-cache/
+byzantine-consensus-state/
+
+# Memory and state files
+*.sqlite
+*.db
+swarm-state/
+agent-memory/
+
+# Test output
+test-output/
+coverage/
+*.test.log
+screenshots/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/
